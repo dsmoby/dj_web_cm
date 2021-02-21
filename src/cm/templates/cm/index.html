@@ -1,0 +1,27 @@
+{% extends "cm/layout.html" %}
+{% block Content %}
+
+<main class="main-content">
+
+    {% for d in  data %}
+
+        <article class="main-article" id="1">
+            <h1 class="article-title"> {{ d.title}} </h1>
+
+            <div class="date-author">
+                <small class="article-id"> {{ d.id }} </small>
+                <small class="article-date"> {{ d.created_on|date:"D. b. d Y" }} </small>
+                <small class="article-author"> {{ d.author }} </small>
+            </div>
+            
+            <p class="article-text" > {{ d.text }} </p>
+        </article>
+      
+    {% endfor %}
+
+    
+    
+</main>
+
+  
+{% endblock Content %}

@@ -1,0 +1,10 @@
+@import "./variables";
+@import "./colors";
+
+.title{
+    display: block;
+    text-align: center;
+    margin: 10px;
+    color: $cLight;
+    font-size: $titleFontSize;
+}

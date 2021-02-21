@@ -1,0 +1,13 @@
+@import './mixins';
+@import './main_article';
+@import './variables';
+
+main{
+    width: $mainW;
+    height: $mainH;
+    height: calc();
+    margin: 0 auto;
+    @include grid-3;
+    padding: $mainPadding;
+
+}

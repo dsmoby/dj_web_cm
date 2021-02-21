@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  font-size: 2rem;
+  background-color: #b0b0b5;
+  color: #372525;
+  width: 100vw;
+  height: 300vh;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.title {
+  display: block;
+  text-align: center;
+  margin: 10px;
+  color: #d5d0d0;
+  font-size: 10vh;
+}
+
+.header {
+  width: 100vw;
+  height: 30vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: linear-gradient(45deg, #445567, #372525);
+  color: #d5d0d0;
+}
+
+.title {
+  display: block;
+  text-align: center;
+  margin: 10px;
+  color: #d5d0d0;
+  font-size: 10vh;
+}
+
+.main-article {
+  border-radius: 10px;
+  background-color: #b0b0b5;
+  position: relative;
+  padding: 0;
+}
+
+.article-title, .article-text {
+  padding: 22px 10px;
+  border-radius: 10px 10px 0 0;
+  font-size: 1.75rem;
+  color: #d5d0d0;
+  margin: 5px 0;
+  background: linear-gradient(-45deg, #445567, #372525);
+  display: block;
+  width: 100%;
+  position: static;
+  top: 0;
+}
+
+.date-author {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.article-text {
+  background: #b0b0b5;
+  color: #372525;
+  -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+          hyphens: auto;
+}
+
+main {
+  width: 70vw;
+  height: 250vh;
+  height: calc();
+  margin: 0 auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+  grid-gap: 3vh;
+  padding: 3vh;
+}
+
+.footer {
+  width: 100vw;
+  height: 20vh;
+  background-color: #445567;
+  color: #d5d0d0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=cmstyles.css.map */

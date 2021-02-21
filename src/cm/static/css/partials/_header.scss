@@ -1,0 +1,12 @@
+@import "./mixins";
+@import "./colors";
+@import './variables';
+@import './title';
+
+.header{
+    width: $pageW;
+    height: $headerH;
+    @include flex-center-row;
+    background: $gradOne;
+    color: $cLight;    
+}

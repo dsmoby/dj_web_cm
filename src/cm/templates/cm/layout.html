@@ -1,0 +1,28 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/cmstyles.css' %}">
+    {% block Title %}
+      <title>Document</title>
+    {% endblock Title %}
+    
+</head>
+<body>
+    <header class="header">
+        <h1 class="title">Welcome to Data Scicence Resources</h1>
+    </header>
+    {% block Content %}
+
+      
+    {% endblock Content %}
+    <footer class="footer">
+       
+        Moby Khan &copy; {%  now "Y"  %} 
+        
+    </footer>
+</body>
+</html>

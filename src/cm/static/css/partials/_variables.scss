@@ -1,0 +1,12 @@
+$base: 100;
+$pageH: 3*$base*1vh;
+$pageW: 1*$base*1vw;
+
+$headerH: 1 * $pageH / 10;
+$footerH: 1 * $pageH / 15;
+
+$mainH: $pageH - $headerH - $footerH;
+$mainW: 0.7 * $pageW;
+$mainPadding: $pageH / $base;
+
+$titleFontSize: $headerH / 3;

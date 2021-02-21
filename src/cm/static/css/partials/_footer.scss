@@ -1,0 +1,10 @@
+@import './colors';
+@import './mixins';
+@import './variables';
+.footer{
+    width: $pageW;
+    height: $footerH;
+    background-color: $bgDark;
+    color: $cLight;
+    @include flex-center-row;
+}

@@ -1,0 +1,33 @@
+@import './colors';
+@import './mixins';
+
+.main-article{
+    border-radius: 10px;
+    background-color: $bgLight;
+    position: relative;
+    padding: 0;
+}
+
+.article-title {
+    padding: 22px 10px;
+    border-radius: 10px 10px 0 0;
+    font-size: 1.75rem;
+    color: $cLight;
+    margin: 5px 0;
+    background: $gradOneR;
+    display: block;
+    width: 100%;
+    position: static;
+    top: 0;
+}
+.date-author{
+    @include flex-col;
+}
+
+.article-text {
+  @extend .article-title;
+  background: $bgLight;
+  color: $cDark;
+  hyphens: auto;
+
+}
